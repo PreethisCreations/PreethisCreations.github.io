@@ -376,8 +376,8 @@ color:white;
 .logo{
 	display:block;
 	position:absolute;
-	bottom:570px;
-	right:1100px;
+	bottom:75vh;
+	right:70vw;
 	border-radius: 100%;
 	background-color: white;
 	
