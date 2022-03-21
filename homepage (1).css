@@ -1,0 +1,26 @@
+li {
+	float:left;
+	display:inline;
+}
+li a {
+	display: block;
+	padding-right:178px;
+	padding-bottom:10px;
+	padding-top: 10px;
+	padding-left:178px;
+	background-color:gold;
+	}
+li a:hover{
+	background-color:#E1C420
+}
+
+ul {
+    list-style-type: none;
+	margin-top: 0px;
+	padding-left:0px;
+	overflow: hidden;
+}
+#home{
+	text-align: center;
+}
+

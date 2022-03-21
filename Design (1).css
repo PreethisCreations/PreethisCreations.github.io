@@ -1,0 +1,412 @@
+body {
+gap:0%;
+margin:0%;
+height:100%;
+width:100%;
+background-blend-mode:multiply;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+li{
+display:inline;
+}
+.usual {
+text-align:center;
+background-color:rgba(255,227,118,1.00);
+overflow: hidden;
+margin:auto;
+z-index: 2;
+position: sticky;
+top:0px;
+	}
+.n_usual{
+text-align:center;
+background-color:rgba(255,227,118,1.00);
+overflow: hidden;
+margin:auto;
+z-index: 2;
+top:0px;
+}
+.active{
+	background-color:red;
+	color: gold;
+}
+ul{
+	padding:0px;
+	margin:10px 0px 10px 0px;
+}
+
+nav a{
+color: red;
+margin: auto;
+text-decoration: none;
+font-weight: 600;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+padding:5% 9.8% 5% 9.8%;
+z-index: 2;
+}
+.inactive a:hover {
+	background-color: gold;
+}
+
+.home{
+	text-align: center;
+	background-color:#B40508;
+	margin-top:0%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	font-size: 350%;
+
+	color: white;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+#header_1{
+	text-align:center;
+	font-size:40px;
+	text-decoration:underline;
+}
+.check{
+	text-align: center;
+	background-color:#B40508;
+	color: white;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:30px;
+}
+.des_tit{
+	text-align:right;
+	margin-right:29vw;
+	margin-top:5%;
+	font-size: 24px;
+}
+.feat {
+	text-align:center;
+	text-decoration: underline;
+	padding-left: 0px;
+	font-size: 160%;
+}
+#products {
+	text-align: center;
+	background-color:#B40508;
+	padding-top:10px;
+	padding-bottom: 10px;
+	font-size: 25px; 
+	color: white;
+}
+#proheader{
+	text-align: center;
+	font-size: 35px;
+	text-decoration: underline;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.feat_list {
+margin-left: 4%;
+	}
+.feat_list img{
+margin-top: 2%; width:30%; height:auto;align-content: center;padding-left: 0.2%;padding-right:0.2%
+	}
+
+
+#history{
+ text-align:center;
+margin-top:1;
+font-size:23px;
+}
+.para{
+display:block;
+padding: 60px;
+border: thick;
+border-color: #000000;
+background-color:orange; 
+text-align: justify;
+font-size: 20px;
+margin-left:25%;
+margin-right:25%;
+}
+
+#Hi{
+margin-left: 2vh;
+margin-top:10vh;
+	font-size:25px
+
+}
+.text {
+text-align: center;
+font-size: 30px;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:red;
+}
+.an_container{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+}
+
+.an_container.section {
+	position:relative;
+	height: 100%;
+	width: 100%;
+	}
+.an_container .section:nth-child(1)
+{ background: #777777 url("../bird background.jpg");
+background-size: cover;
+  background-blend-mode: multiply;
+
+}
+.an_container .section:nth-child(2)
+{ background: #777777 url("../Buddha background.jpg");
+  background-size: cover;
+background-blend-mode: multiply;
+
+}
+.an_container .section:nth-child(3)
+{ background: #777777 url("../Flower background.jpg");
+	background-size: cover;
+  background-blend-mode: multiply;
+
+}
+.an_container .section:nth-child(4)
+{ background: #777777 url("../Silver Buddha background.jpg");
+	background-size: cover;
+  background-blend-mode: multiply;
+
+}
+.an_container .section:nth-child(5)
+{ background: #777777 url("../Diwali glass background.jpg");
+	background-size: cover;
+  background-blend-mode: multiply;
+
+}
+.an_container .section:nth-child(6)
+{ background:#777777  url("../Momentum from Dubai image.jpg");
+	background-size: cover;
+  background-blend-mode: multiply;
+
+}
+.check_img {
+	margin-left: 7%;
+	margin-top:5vh
+}
+.HP_Back{
+	position:absolute;
+	bottom:-300%;
+	height:50px;
+	width:50px;
+	background-color:black;
+	border-radius: 50%; 
+}
+.checkout{
+	display: block;
+	height:10px;
+	width: 50px;
+	overflow:hidden;
+    background-color: red;
+	margin-left: 50%;
+}
+#p_title1 {
+	position:absolute;
+	bottom:90%;
+	left: 63%;
+	text-decoration: underline;
+}
+.link{
+	text-decoration:none;
+	color:white;
+}
+#p_title2{
+	position:absolute;
+	top:118%;
+	left:64%;
+	text-decoration: underline;
+}
+#p_title3{
+	position:absolute;
+	top:237%;
+	left:50%;
+		text-decoration: underline;
+}
+#p_title4{
+	position:absolute;
+	top:355%;
+	left: 63%;
+		text-decoration: underline;
+}
+#p_title5{
+	position:absolute;
+	top:475%;
+	left:63%;
+		text-decoration: underline;
+}
+#p_title6{
+	position:absolute;
+	top:595%;
+	left:57%;
+		text-decoration: underline;
+}
+
+.des{
+	position:absolute;
+	top:30vh;
+	left:530px;
+	max-width:60vw;
+	text-align:justify;
+	font-size:25px
+}
+#flower{
+	position: absolute;
+	top:15vh;
+	left:40vw;
+}
+.ord_but{
+	position:absolute;
+	left:940px;
+	bottom:160px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	background-color:orange;
+}
+#plate{
+	position:absolute;
+	bottom:70vh;
+	left: 47vw;
+	font-size: 50px;
+}
+#p_des1{
+position:absolute;
+bottom:60%;
+left:45%;
+max-width: 70%;
+font-size:25px;
+color:white;
+	
+}
+#p_des2{
+position: absolute;
+top:130vh;
+left:45%;
+max-width:70%;
+font-size:25px;
+color:white;
+}
+#p_des3{
+position: absolute;
+top:250vh;
+left:45%;
+max-width:70%;
+font-size:25px;
+color:white;
+	
+}
+#p_des4{
+position: absolute;
+top:370vh;
+left:45%;
+max-width:70%;
+font-size:25px;
+color:white;
+
+	
+}
+#p_des5{
+position: absolute;
+top:490vh;
+left:42%;
+max-width:70%;
+font-size:25px;
+color:white;
+}
+#p_des6{
+position: absolute;
+top:620%;
+left:42%;
+max-width:70%;
+font-size:25px;
+color:white;
+}
+
+#p_des7{
+position: absolute;
+top:740%;
+left:42%;
+max-width:70%;
+font-size:25px;
+color:white;
+}
+#check_title2{
+	font-size: 50px;
+	position:absolute;
+	bottom:70vh;
+	left:60vw;
+}
+#check_title1{
+	font-size: 50px;
+	position:absolute;
+	bottom:70vh;
+	left:50vw;
+}
+#check_title3{
+	position:absolute;
+	bottom:70vh;
+	left: 55vw;
+	font-size: 50px;
+}
+#check_title4{
+	position:absolute;
+	bottom:70vh;
+	left: 55vw;
+	font-size: 50px;
+	
+}
+#check_title5{
+	position:absolute;
+	bottom:70vh;
+	left: 55vw;
+	font-size: 50px;
+	
+}
+
+#home_back{
+	background:url("../Gradient.jpg")
+}
+.logo{
+	display:block;
+	position:absolute;
+	bottom:570px;
+	right:1100px;
+	border-radius: 100%;
+	background-color: white;
+	
+}
+.logo_nav{
+	border-radius: 100%;
+	background-color: white;
+}
+.animation{
+	position:absolute;
+	border-radius:100%;
+	background-color: #DF0003;
+	left:-50px;
+	top:300px;
+	animation-duration:7s;
+}
+.animation:hover
+{animation-name: spin-out;
+
+}
+
+@keyframes spin-out {
+0% { transform:translate(0px) rotate(0deg) scale(1)
+}
+	20%{transform:translateX(70px) rotate(360deg) scale(1.5)}
+		
+	100%{transform:translateX(70px) rotate(360deg) scale(1.5)}	
+	}
+
+
+
+

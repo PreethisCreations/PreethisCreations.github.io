@@ -1,0 +1,30 @@
+li {
+	float:left;
+	display:inline;
+	align-items:center 
+		
+}
+li a {
+	display: block;
+	padding-right:100px;
+	padding-bottom:10px;
+	padding-top: 10px;
+	background-color:aqua;
+	}
+ul {
+    list-style-type: none;
+	margin-top: 0px;
+	padding-left:0px;
+	overflow: hidden;
+}
+#about {
+	padding-left: 300px;
+	}
+#pro {
+	padding-left: 300px
+}
+#con{
+	padding-left: 300px;
+	padding-right: 179px 
+		}
+

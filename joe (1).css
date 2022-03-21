@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.joe{
+	position:absolute;
+	left:800px
+}
+.joe:hover{
+	font-size:69px;
+}
